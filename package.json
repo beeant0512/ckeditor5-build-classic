@@ -1,6 +1,6 @@
 {
   "name": "@xstudio/ckeditor5-build-classic",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "xstudio's ckeditor5 build extends from ckeditor-build-classic",
   "keywords": [
     "ckeditor5-build",

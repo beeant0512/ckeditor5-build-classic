@@ -93,19 +93,16 @@ ClassicEditor.defaultConfig = {
 			'subscript',
 			'superscript',
 			'|',
-			'left',
-			'right',
-			'|',
+			'alignment',
 			'link',
 			'bulletedList',
 			'numberedList',
 			'imageUpload',
+			'mediaEmbed',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
 			'undo',
-			'redo',
-			'mediaEmbed'
+			'redo'
 		]
 	},
 	image: {
@@ -124,7 +121,7 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'zh',
+	language: 'zh-cn',
 	fontFamily: {
 		options: [
 			'default',
@@ -135,5 +132,8 @@ ClassicEditor.defaultConfig = {
 	mediaEmbed: {
 		// configuration...
 		removeProviders: [ 'instagram', 'twitter', 'googleMaps', 'flickr', 'facebook' ]
-	}
+	},
+	alignment: {
+		options: [ 'left', 'right' ]
+	},
 };
